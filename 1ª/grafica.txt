@@ -1,0 +1,27 @@
+-segmento tiene dos pv2d uno de inicio del segmento y otro del final, asi como un double grado que indica el grado que lleva ese segmento
+para luego contruirlo y tal.
+
+-los metodos tiene los get y set de todo y un constructor que le pasas como argumento inicio fin y grado y te contruye el segmento.
+
+-tambien tiene un metodo que te calcula la distancia ntre dos puntos pv2d a y pv2d b.
+
+-la distancia entre dos vectores es simple, la puedes buscar en google.
+
+-la clase Lapiz tiene como parametros pv2d* posicion, que hace referencia con un puntero a la posicion actual del lapiz y un double direccion para saber que direccion tine que tomar el lapiz.
+
+-sus metodos son un constructor vacio que hace que el punto apunte al 0.0 con direcciin 0
+
+	lapiz::lapiz(){
+		pos= new PV"D(0,0);
+		dir=0;
+	}
+
+-y otro constructor que le metes un puntero a pv2d y la direccion y te los mete.
+
+-otro metodo turnTo que le pasas como parametro direccion y hace this ->dir+=dir;  que es direccion
+anterior mas la direccion que le metes (todo ello en grados).
+
+
+PREGUNTAS
+
+por que se pone const delante de los metodos geters
