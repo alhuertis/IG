@@ -119,7 +119,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="escena.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="copo.h" />
+    <ClInclude Include="lapiz.h" />
+    <ClInclude Include="PV2D.h" />
+    <ClInclude Include="segmento.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

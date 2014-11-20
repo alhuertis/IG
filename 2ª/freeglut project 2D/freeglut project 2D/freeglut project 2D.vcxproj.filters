@@ -15,7 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClInclude Include="copo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lapiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="segmento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PV2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="escena.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
