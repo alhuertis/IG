@@ -1,4 +1,4 @@
-practicas-ig
+practicas
 ============
 
-Prácticas de la asignatura informática gráfica
+
